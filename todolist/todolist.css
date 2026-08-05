@@ -8,31 +8,81 @@ body {
   align-items: center;
   justify-content: center;
 }
+h1 {
+  font-size: 24px;
+  color: green;
+}
 .container {
-  width: 500px;
+  width: 400px;
   border-radius: 8px;
-  background-color: rgb(169, 225, 169);
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  align-items: center;
+  gap: 20px;
   padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.16);
 }
 .header {
+  width: 350px;
   display: flex;
   justify-content: space-between;
-  border: solid, green, 1px;
+
   border-radius: 8px;
-  padding: 10px;
-  background-color: rgb(232, 255, 234);
+}
+.header > input {
+  width: 270px;
+  border-radius: 8px;
+  border: #b4b4b4 1px solid;
 }
 
+.header > button {
+  width: 59px;
+  height: 35px;
+  background-color: green;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #f9f9f9;
+}
+.container > :nth-child(3) {
+  height: 32px;
+  width: 350px;
+  display: flex;
+
+  gap: 10px;
+}
+.All {
+  color: #363636;
+  background-color: #e5e7eb;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  height: 30px;
+  width: 45px;
+}
+.Active {
+  color: #363636;
+  background-color: #e5e7eb;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  height: 30px;
+  width: 55px;
+}
+.Completed {
+  color: #363636;
+  background-color: #e5e7eb;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  height: 30px;
+  width: 85px;
+}
 .item {
+  width: 350px;
   display: flex;
   justify-content: space-between;
-  border: solid, green, 1px;
-  padding: 10px;
+  align-items: center;
+  padding: 8px;
   border-radius: 8px;
-  background-color: rgb(232, 255, 234);
+  background-color: #f9fafb;
 }
 .list {
   display: flex;
@@ -40,13 +90,28 @@ body {
   gap: 10px;
 }
 .item p {
-  font-size: 24px;
-  color: green;
+  font-size: 18px;
+  color: rgb(4, 6, 4);
 }
-
+.item > button {
+  width: 60px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #ef4444;
+  background-color: #f3dede;
+  border: 1px solid transparent;
+}
+.item > input {
+  width: 24px;
+  height: 24px;
+}
 .zuraas {
   text-decoration: line-through;
   color: black;
 }
-.a {
+
+.allBackGround {
+  background-color: green;
+  color: #f9f9f9;
 }
