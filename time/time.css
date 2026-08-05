@@ -1,0 +1,79 @@
+body {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(179, 236, 151);
+}
+h1 {
+  font-size: 150px;
+  color: pink;
+}
+.time {
+  width: 1500px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.time > :nth-child(2) {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  font-size: 110px;
+}
+.but {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 18px;
+  border: 1px solid rgb(86, 126, 86);
+  background-color: rgb(86, 126, 86);
+  color: aliceblue;
+}
+.hour {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.minut {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.second {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.colon {
+  width: 20px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.colon > div {
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+}

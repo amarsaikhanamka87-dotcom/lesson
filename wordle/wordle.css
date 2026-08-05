@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 150px;
+}
+body > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.row div {
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  color: pink;
+  border: 2px solid gray;
+  font-size: 30px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keybored {
+  width: 800px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.keybored1 {
+  width: 800px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+.keybored2 {
+  width: 800px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+.box div {
+  border-radius: 8px;
+  border: solid 1px transparent;
+  background-color: rgb(149, 165, 181);
+  color: floralwhite;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.correct {
+  background-color: green !important;
+}
+
+.present {
+  background-color: orange !important;
+}
+
+.absent {
+  background-color: rgb(89, 93, 93) !important;
+}

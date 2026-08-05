@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(3, 250px);
+  gap: 25px;
+  padding: 25px;
+  background-color: palevioletred;
+  border: 3px solid palevioletred;
+  border-radius: 8px;
+}
+
+.container > div {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  border: 1px solid green;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: palevioletred;
+  color: aliceblue;
+  border: solid 1px aliceblue;
+  border-radius: 8px;
+}
+
+.winMoment {
+  background-color: green !important;
+  border-radius: 8px !important;
+}
